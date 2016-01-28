@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<wx>
+	<token>whistle</token>
+	<appid>wx6c387342176a0455</appid>
+	<secret>39ced1c9e42fe59b7b17dfc509181428</secret>
+	<checkRequestRestrictly>true</checkRequestRestrictly>
+	<processor-chain>
+	     <processor>com.surelution.ruijin.TempQrScannedAction</processor>
+		<processor>com.surelution.whistle.core.SampleAction</processor>
+	</processor-chain>
+</wx>
